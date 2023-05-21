@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Shahan Chowhdhury's Portfolio",
     type: "website",
-    url: "https://shahan-portfolio.netlify.app",
+    url: "https://shahanportfolio.netlify.app",
   },
 };
 
