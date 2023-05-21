@@ -7,27 +7,27 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Md. Shahan Ahmed Chowhdhury's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Shahan Chowhdhury's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://shahan-portfolio.netlify.app",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Md. Shahan Ahmed Chowdhury",
+  logo_name: "Shahan Chowdhury",
+  nickname: "codewithshahan",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/codewithshahan",
 };
 
 const socialMediaLinks = [
@@ -42,43 +42,43 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/codewithshahan",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/codewithshahan/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://youtube.com/c/programmingwithshahan",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:codewithshahan@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/shahanmedic",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/codewithshahan",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/codewithshahan/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,23 +87,23 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Content Creator & Writer",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Making video content for programming and health related concepts",
+        "⚡ Technical writer and collaborator in freecodecamp.org, dev.to and Medium",
+        "⚡ Able to explain complex concept through animation videos using my own voiceover",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Blog Writing",
+          fontAwesomeClassname: "logos-pen",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
+          skillName: "Technical Writing",
           fontAwesomeClassname: "simple-icons:keras",
           style: {
             backgroundColor: "white",
@@ -111,22 +111,22 @@ const skills = {
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Digital Marketing",
+          fontAwesomeClassname: "logos-world",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "SEO Marketing",
+          fontAwesomeClassname: "ion-logo-high",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Deeplearning",
+          skillName: "Professional Video Creator",
           imageSrc: "deeplearning_ai_logo.png",
         },
       ],
@@ -214,7 +214,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Web development",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -332,7 +332,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "",
     },
     {
       siteName: "HackerRank",
@@ -340,7 +340,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "",
     },
     {
       siteName: "Codechef",
@@ -348,7 +348,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "",
     },
     {
       siteName: "Codeforces",
@@ -356,7 +356,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "",
     },
     {
       siteName: "Hackerearth",
@@ -364,7 +364,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "",
     },
     {
       siteName: "Kaggle",
@@ -372,7 +372,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "",
     },
   ],
 };
@@ -380,30 +380,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "Sylhet Government Model School & College",
+      subtitle: "HSC, Science, GPA 5.00 (out of 5.00)",
       logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      alt_name: "Sylhet Government Model School & College",
+      duration: "2018-2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied Higher Math, English, Biology, Chemistry, Physics and ICT",
+        "⚡ Apart from this, I have done courses on content creation, HTML/CSS and Web Design.",
+        "⚡ I was selected for 1st place on Math Quizzes and Trivia competition held on 12th February 2019 in this college. I have also received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.sgmsc.edu.bd/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
+      title: "Israb Ali High School & College",
+      subtitle: "SSC, Science, GPA 4.56 (out of 5.00)",
       logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      alt_name: "Israb Ali High School & College",
+      duration: "2016-2018",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I have studied Basic of Bangla, English, Physics, Math, Chemistry and ICT.",
+        "⚡ Apart from this, I have also attended in debate club.",
+        "⚡ During my time at this school, I was also associated with English speaking club where the students, teachers and guardians gathered together for school events and greetings.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.facebook.com/Official.Iac/",
     },
   ],
 };
@@ -411,112 +411,109 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      title: "Code for Android Apps",
+      subtitle: "- Mimo",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://drive.google.com/file/d/1VikEqg7TWPg1c5045ZxsgaQsPIFnhkn9/view",
+      alt_name: "Mimo",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "White Hat Hacking Certification",
+      subtitle: "- Mimo",
+      logo_path: "gcp_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1AejHDfH4egZV1NMtSxQoCDOC1AvzwqX0/view",
+      alt_name: "Mimo",
+      color_code: "#4285F499",
+    },
+    {
+      title: "Google Digital Marketing Certification",
+      subtitle: "- Google",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://drive.google.com/file/d/1-wv661fuPLcJ47maneBXKE29-vTrwRSG/view?usp=sharing",
+      alt_name: "Digital Marketing",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "CSS Certification",
+      subtitle: "- HackerRank",
       logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+      certificate_link: "https://www.hackerrank.com/certificates/48f6158b560a",
+      alt_name: "HackerRank",
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
+      title: "Typing Speed Certification (72 WPM)",
+      subtitle: "- typing.com",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
+        "https://www.typing.com/student/verify#249616118-143859356",
+      alt_name: "typing.com",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
+      title: "Python Programming Certification",
+      subtitle: "- Programming Hub",
       logo_path: "microsoft_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+        "https://storage.googleapis.com/programminghub/certificate%2F1596444797020.pdf",
+      alt_name: "Programmng Hub",
       color_code: "#D83B0199",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
+      title: "Programming in C++ Certification",
+      subtitle: "- Programming Hub",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
+        "https://storage.googleapis.com/programminghub/certificate%2F1596609056882.jpg",
+      alt_name: "Programming Hub",
       color_code: "#1F70C199",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Best Performer on Math & Trivia Quizzes Certication",
+      subtitle: "- Sylhet Govt. Model School & College",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
+        "https://drive.google.com/file/d/12zvIfahaYzaA14SpdtPIOS-kvMuBALW4/view?usp=share_link",
+      alt_name: "Model College",
       color_code: "#0C9D5899",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
+      title: "JavaScript Algorithoms & Data Structures Certification",
+      subtitle: "- Freecodecamp.org",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
+        "https://www.freecodecamp.org/certification/fcc39eb77ef-b99b-4a09-962f-d4cf769eb195/javascript-algorithms-and-data-structures",
+      alt_name: "freecodecamp.org",
       color_code: "#00000099",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
+      title: "Responsive Web Design Certification",
+      subtitle: "- Freecodecamp.org",
       logo_path: "coursera_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
+        "https://www.freecodecamp.org/certification/fcc39eb77ef-b99b-4a09-962f-d4cf769eb195/responsive-web-design",
+      alt_name: "Freecodecamp.org",
       color_code: "#2A73CC",
     },
     {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Higher Secondary School Certificate (HSC)",
+      subtitle: "- Sylhet Govt. Model School & College",
+      logo_path: "coursera_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://drive.google.com/file/d/1FtzWRoA-OnXZhDY1Xovu-qowyQapHGUa/view?usp=share_link",
+      color_code: "#2A73CC",
     },
     {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
+      title: "Secondary School Certificate (SSC)",
+      subtitle: "- Israb Ali High School & College",
+      logo_path: "coursera_logo.png",
       certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://drive.google.com/file/d/1uIDYY_Dxa0e1x4ZEJhrOfm-cG0AHq8Wy/view?usp=share_link",
+      color_code: "#2A73CC",
     },
   ],
 };
@@ -526,43 +523,54 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many evolving startups & Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
+          title: "Web Developer",
+          company: "Learner's Hub",
+          company_url: "https://learnershubsylhet.netlify.app/",
           logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          duration: "Aug 2022 - Present",
+          location: "Mousumi-1, Mirabazar, Sylhet, Bangladesh",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Learner's Hub is dedicated to helping international students navigate the complex world of education, from selecting the right course or program to developing the skills and knowledge they need to achieve their ambitions in the UK, USA, Australia & Canada. My responsibility is to build and maintain websites for this company with beautiful user interfaces.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Technical Writer on Software Development (Remote Work)",
+          company: "Freecodecamp.org",
+          company_url: "https://www.freecodecamp.org/news/author/shahan/",
+          logo_path: "legato_logo.png",
+          duration: "October 2021 - Present",
+          location: "San Francisco, California, United States",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "As a technical writer at freecodecamp.org, my primary role is to create clear, concise, and comprehensive documentation for software development topics. I work closely with the software development team to understand complex concepts and translate them into user-friendly language that is accessible to learners at all levels of expertise.",
+          color: "#0879bf",
+        },
+        {
+          title: "Coding Instructor",
+          company: "YouTube (Programming with Shahan)",
+          company_url: "https://www.youtube.com/c/programmingwithshahan",
+          logo_path: "muffito_logo.png",
+          duration: "Dec 2019 - Present",
+          location: "Work From Home",
+          description:
+            "As a coding instructor on my YouTube channel, I provide comprehensive tutorials and guidance for full-stack development. Through my videos, I teach viewers how to build and deploy web applications using various programming languages, frameworks, and tools. I focus on breaking down complex concepts into digestible explanations, enabling learners to acquire practical coding skills and gain confidence in their abilities.",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
+          title: "Article Writer",
+          company: "Dev.to, Medium.com",
+          company_url: "https://dev.to/codewithshahan",
           logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          duration: "Sep 2021 - Present",
+          location: "Work From Home",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "As an article writer for both dev.to and medium.com, my focus is on frontend and backend development. I specialize in creating content that covers various aspects of coding, from the user interface to the server-side logic. In addition to writing, I incorporate beautiful whiteboard animations to enhance the visual experience and make complex concepts more easily understandable. I aim to provide informative and engaging articles that cater to developers of all levels, helping them enhance their skills and stay updated with the latest trends in the world of web development.",
           color: "#fc1f20",
         },
       ],
@@ -571,38 +579,15 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
+          title: "Author (CSS Text only Course - Remote Work)",
+          company: "Educative Inc",
+          company_url: "https://www.educative.io/",
           logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          duration: "May 2022 - July 2022",
+          location: "Bellevue, Washington, USA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "As an author for Educative Inc, I contributed to the creation of a CSS text-only course. This involved writing content that focused specifically on the styling and formatting of text using CSS (Cascading Style Sheets). The course aimed to provide learners with comprehensive knowledge and practical examples of using CSS to manipulate text elements in web development. My contributions included designing and structuring the course content, providing clear explanations, and offering relevant exercises to reinforce the concepts taught. The goal was to empower learners to enhance their CSS skills and effectively style text for compelling web designs.",
           color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
         },
       ],
     },
@@ -610,59 +595,26 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
+          title: "Open Source Developer",
+          company: "Aviyel",
           company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
+            "https://aviyel.com/post/3868/how-has-open-source-benefited-you-in-your-journey",
           logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
+          duration: "Oct 2020 - Nov 2020",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+            "I am actively contributing to many opensource projects. ",
+          color: "#181717",
+        },
+        {
+          title: "Startup Voluteerships",
+          company: "Save Sylhet",
+          company_url: "https://savesylhet.org/",
+          logo_path: "github_logo.png",
+          duration: "April 2020 - Nov 2022",
+          location: "811, West world shopping city, Sylhet 3100",
+          description:
+            "Save Sylhet is the largest social youth platform in Sylhet Division. There are 263 distinct projects included in it, such as Sylhet Blood Center, Sylhet Wonder Women, and Startup Sylhet, Sylhet Jobs, Shoraikhana, Mission Three Million Trees, Sylhet Cycling Club, Sylhet Runners Club, Sylhet Sports Center, Sylhet Olympiad, etc. ",
           color: "#181717",
         },
       ],
@@ -688,44 +640,44 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name: "Amazing Dice Game Using JavaScript",
+      createdAt: "2021-04-06T16:26:54Z",
+      description:
+        "The basic premise of the game is this: you roll six dice. You take out the dice that have scored points and then decide whether to keep that score or re-roll the remaining dice to try to score more points. But if you roll again and don't score points, you lose what you've earned so far.",
+      url: "https://dice-game-shahan.netlify.app/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name: "Fullstack Mobile App using React Native (E-commerce App)",
+      createdAt: "2021-02-06T16:26:54Z",
+      description:
+        "Download the ExpoGo app and scan the QR code to run this app on your phone. This app user interface (Frontend) has built using JavaScript Framework Reac Native and I used Node.js, express & MongoDB for Backend",
+      url: "https://expo.dev/@codewithshahan/bikroy",
+    },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name:
+        "RESTful APIs with Node, Express and MongoDB for Movie Service (Backend)",
+      createdAt: "2021-05-06T16:26:54Z",
+      description:
+        "Get the genres, movies, users, golden users, and more using this API endpoint.",
+      url: "http://shahan-vidly.herokuapp.com/api/genres",
+    },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
+      name: "Professional Banking website using plain JavaScript (frontend)",
+      createdAt: "2021-09-06T16:26:54Z",
+      description: "This website was written using plain javascript",
+      url: "https://bankist-shahan.netlify.app/",
+    },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+      name: "Cloud Hosting Website using Plain HTML CSS (Frontend)",
+      createdAt: "2020-12-06T16:26:54Z",
+      description:
+        "A beautiful cloud hosting website using pure HTML CSS & JavaScript ",
+      url: "https://shahanify.netlify.app/",
     },
   ],
 };
@@ -734,23 +686,22 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "profile-image.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 12 hours. I can help you with Frontend and Backend Development using HTML, CSS, JavaScript, Node.js, React.js, React Native, Express, MongoDB and Python",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to make them a better developer over time.",
+    link: "https://dev.to/codewithshahan",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "Monsorpur, Bade Dewrail-3190, Zokinganj, Sylhet",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "24.939087703897794, 92.38771791641445",
   },
   phoneSection: {
     title: "",
