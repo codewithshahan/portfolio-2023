@@ -381,7 +381,7 @@ const degrees = {
     {
       title: "Sylhet Government Model School & College",
       subtitle: "HSC, Science, GPA 5.00 (out of 5.00)",
-      logo_path: "iiitk_logo.png",
+      logo_path: "model-logo.png",
       alt_name: "Sylhet Government Model School & College",
       duration: "2018-2020",
       descriptions: [
@@ -394,7 +394,7 @@ const degrees = {
     {
       title: "Israb Ali High School & College",
       subtitle: "SSC, Science, GPA 4.56 (out of 5.00)",
-      logo_path: "iu_logo.png",
+      logo_path: "israb_ali.png",
       alt_name: "Israb Ali High School & College",
       duration: "2016-2018",
       descriptions: [
